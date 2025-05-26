@@ -25,7 +25,7 @@
 
   &:hover, &:has(input:focus){ /*verifica se o input está em foco*/
     border-width: 2px;
-    border-color: var(--stroke-hightlight);
+    border-color: var(--stroke-highlight);
     background-color: var(--surface-secondary);
 
     & p{
@@ -33,7 +33,7 @@
     }
 
     & svg path{ /* transformando o stroke do svg - colorindo - stroke=linhas */
-      stroke: var(--stroke-hightlight);
+      stroke: var(--stroke-highlight);
     }
   }
 
